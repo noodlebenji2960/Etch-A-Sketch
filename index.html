@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class = "containTheContainer">
+        <div class="title">
+            <h1>Etch-A-Sketch</h1>
+            <div class="codedby"><a href="https://github.com/noodlebenji2960" target="_blank">coded by <b>Benjamin</b><largeEmoji>🐤</largeEmoji></a></div>
+        </div>
+        <div class = workArea>
+            <div class = toolMenu>
+                <button id ="rainbowMode"><emoji>🌈</emoji></button>
+                <button id ="eraser">Eraser</button>
+                <button id ="resetButton">Reset</button>
+                <button id ="addBorders">Borders</button>
+            </div>
+            <div id="container"></div>
+        </div>
+        <div class= "bottomMenu">
+            <div class ="container1">
+                <div class="colorPicker">
+                    <div id="color_front" class="circles"></div>
+                    <input type="color" id="color">
+                </div>
+            </div>
+            <div class="middleBottomMenu">
+                <input type="range" min="2" max="100" value="50" class="slider" id="myRange">
+                <input type="text" id="gridSizeTextbox" value="50 x 50">
+                <input type="text" id="hex" value="#c2c2c2">
+            </div>
+            <div class="container1">
+                <div class="circles"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
